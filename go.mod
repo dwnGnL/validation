@@ -5,10 +5,12 @@ go 1.18
 require (
 	github.com/gin-gonic/gin v1.8.1
 	github.com/go-playground/validator v9.31.0+incompatible
+	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/iancoleman/strcase v0.2.0
 	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/viper v1.13.0
 	github.com/urfave/cli/v2 v2.20.2
+	golang.org/x/crypto v0.0.0-20220926161630-eccd6366d1be
 	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
 	gorm.io/driver/postgres v1.3.1
 	gorm.io/gorm v1.24.0
@@ -63,7 +65,6 @@ require (
 	github.com/subosito/gotenv v1.4.1 // indirect
 	github.com/ugorji/go/codec v1.2.7 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
-	golang.org/x/crypto v0.0.0-20220926161630-eccd6366d1be // indirect
 	golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2 // indirect
 	golang.org/x/sys v0.0.0-20220928140112-f11e5e49a4ec // indirect
 	golang.org/x/text v0.3.7 // indirect

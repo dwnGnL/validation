@@ -25,7 +25,11 @@ func SetupGorm(dsn string, options ...GormOptions) (*gorm.DB, error) {
 		f(o)
 	}
 	gormDB, err := gorm.Open(postgres.Open(dsn), &gorm.Config{
-		Logger: NewLogger(),
+		//Logger: NewLogger(),
+		//NamingStrategy: schema.NamingStrategy{
+		//	TablePrefix:   "validation",
+		//	SingularTable: false,
+		//},
 	})
 	if err != nil {
 		return nil, err
