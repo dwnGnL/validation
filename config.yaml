@@ -1,5 +1,5 @@
 DB:
-  DSN: host=localhost port=5432 user=postgres password=858585 dbname=pg-contest sslmode=disable
+  DSN: host=localhost port=5432 user=humo password=pass dbname=humo_db sslmode=disable
 
 LogLevel: debug
 
